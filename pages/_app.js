@@ -13,8 +13,8 @@ function MyApp ({ Component, pageProps }) {
 }
 
 MyApp.propTypes = {
-  Component: PropTypes.element,
-  pageProps: PropTypes.any
+  Component: PropTypes.elementType.isRequired,
+  pageProps: PropTypes.object
 }
 
 export default MyApp
